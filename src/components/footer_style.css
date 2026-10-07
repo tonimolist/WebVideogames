@@ -1,0 +1,32 @@
+.peu {
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+.btn-footer-top {
+    background: rgba(18, 18, 24, 0.75);
+    color: #c7c7d1;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+.btn-footer-top:hover {
+    background: #fbff00;
+    color: #020202;
+    font-weight: 700;
+    border-color: #fbff00;
+    box-shadow: 0 0 10px rgba(229, 9, 20, 0.45);
+}
+
+.footer-text {
+    font-size: 12px;
+    font-family: system-ui, 'Segoe UI', Roboto, sans-serif; ;
+    color: rgba(255, 255, 255, 0.515);
+    margin-top: 70px;
+}

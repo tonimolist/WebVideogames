@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'IFinkUFreeky';
+  src: url('src/assets/fonts/i_fink_u_freeky.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'BlackMustang';
+  src: url('src/assets/fonts/Black Mustang.ttf') format('truetype');
+}
+
+
+header {
+  padding: 20px 20px 24px;
+  text-align: center;
+}
+
+.titolGran {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size: 110px; 
+    color: #fbff00;
+    text-shadow: 0px 15px 0px #000000;
+    font-family: 'BlackMustang', sans-serif;
+    letter-spacing: 3px;
+}
+
+.subtitol {
+  color: #fbff00;
+  text-shadow: 3px 3px 3px #000000;
+  margin-top: 0px;
+  font-family: 'GameCube', sans-serif; 
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  opacity: 0.8;
+}
+

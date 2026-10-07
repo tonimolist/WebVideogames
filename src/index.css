@@ -1,0 +1,16 @@
+
+@font-face {
+  font-family: 'Minecrefter';
+  src: url('src/assets/fonts/Minecrafter.Reg.ttf') format('truetype');
+}
+
+:root {
+  min-height: 100vh;
+  margin: 0;
+  background: radial-gradient(circle at 50% 0%, #6d01ab 0%, #150204 40%, #0a0a0c 85%);
+  background-attachment: fixed; 
+  margin: 0 auto;
+  text-align: center;
+}
+
+

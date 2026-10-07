@@ -1,0 +1,131 @@
+.container-card {
+  display: flex;
+}
+
+.Games-card {
+  width: 250px;
+  background-color: #302338;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  will-change: transform;
+}
+
+.Games-image-container {
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+  background-color: #121217;
+}
+
+.Games-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.Games-info {
+  padding: 10px 14px 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.Games-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+.Games-id {
+  font-size: 20px;
+  color: #fbff00;
+  font-weight: 600;
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+.Games-year {
+  font-size: 13px;
+  color: #f2ededd3;
+}
+
+.Games-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  margin: 0;
+  height: 2.5em; 
+  text-align: center; 
+}
+
+.Games-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 6px;
+}
+
+.Games-genre {
+  margin-top: 0;
+  background-color: #7d7f005a;
+  color: #fbff00;
+  border: 1px solid #fbff00;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+.heart-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.heart-btn:hover {
+  transform: scale(1.2);
+}
+
+.heart-icon {
+  width: 20px;
+  height: 20px;
+  fill: transparent;
+  stroke: #ffffff;
+  stroke-width: 2;
+  transition: fill 0.2s ease, stroke 0.2s ease;
+}
+
+.heart-btn.liked .heart-icon {
+  fill: #e50914;
+  stroke: #e50914;
+}
+
+.Games-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 7px 18px #000000e1;
+  cursor: pointer;
+}
+
+.Games-card:hover .Games-image {
+  transform: scale(1.1);
+}
+
+.Games-card:hover .Games-title {
+  color: #fbff00;
+}
